@@ -13,11 +13,11 @@ function NavBar(){
   return(
     
     <nav>
-      <a><NavLink to="/Home">Home</NavLink></a>
-      <a> <NavLink to="/Gallery">Gallery</NavLink></a>
-      <a><NavLink to="/Cart">Create</NavLink></a>
-      <a><NavLink to="/Login">Login</NavLink></a>
-      <a><NavLink to="/LogOut">LogOut</NavLink></a>
+      <NavLink to="/Home">Home</NavLink>
+     <NavLink to="/Gallery">Gallery</NavLink>
+      <NavLink to="/Cart">Create</NavLink>
+      <NavLink to="/Login">Login</NavLink>
+      <NavLink to="/LogOut">LogOut</NavLink>
       
      
       <div class="animation start-home"></div>
